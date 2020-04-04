@@ -31,32 +31,23 @@ they are competing backup programs.</p>
 <h2><a name="ToC3">Software written for rdiff-backup</a></h2>
 <ul>
 <li>Filip Gruszczyski has written a <a
-	href="http://fuse.sourceforge.net/">FUSE</a> plugin named <b><a
-		href="http://code.google.com/p/archfs/">archfs</a></b> which allows browsing
+					    href="http://fuse.sourceforge.net/">FUSE</a> plugin named <b>archfs</b>, still present but unmaintained under the name<a
+		href="https://github.com/rdiff-backup/rdiff-backup-fs">rdiff-backup-fs</a></b> which allows browsing
 through rdiff-backup increments directly as a filesystem.</li>
 <li><b><a href="http://safekeep.sourceforge.net/">SafeKeep</a></b> for Linux is a front-end for rdiff-backup providing LVM snapshots and easy configuration.</li>
-<li>Christian Marie has written an rdiff-backup <b><a
-href="http://www.nagiosexchange.org/cgi-bin/page.cgi?g=Detailed%2F1894.html;d=1">Nagios
-plugin</a></b>. You should always monitor your backups, and <a href="http://www.nagios.org/">Nagios</a> is a popular and flexible system monitoring tool.</li>
-<li><b><a href="http://jr.falleri.free.fr/keep">Keep</a></b> is a graphical 
-backup program for KDE that uses rdiff-backup as the backend.</li>
 <li><b><a href="https://launchpad.net/gnomeeasybackup">EasyBackup</a></b> is a graphical backup solution for Gnome which is integrated with the Nautilus file manager and uses rdiff-backup as the backend.</li>
-<li><b><a href="http://alioth.debian.org/projects/slbackup/">slbackup</a></b>
+<li><b><a href="https://people.debian.org/~sunweaver/debian-edu/source/slbackup/">slbackup</a></b>
 is a graphical backup program included in <a
-href="http://www.skolelinux.org/portal/">Skolelinux</a>. Apparently
+href="https://wiki.debian.org/DebianEdu/">DebianEdu</a> (formerly known as Skolelinux). Apparently
 it uses rdiff-backup as the backend. (<a href="http://www.skolelinux.no/~klaus/newnotater/x2949.html">Here</a> is a page with some instructions.)</li>
 <li> <b><a
 href="http://rdiffbackupweb.sourceforge.net/">rdiff-backup-web</a></b> is
-a web-based frontend to rdiff-backup by David Evans. In alpha state
-as of Dec 2005.</li>
+a web-based frontend to rdiff-backup by David Evans. In alpha state as of Dec 2005, and still so in 2020.</li>
 <li>Julien Perez has written an alternative to rsnapshot called 
 <b><a href="http://rbackup.lescigales.org/">rBackup</a></b> which uses rdiff-backup
 as the backend instead of rsync. It uses a configuration file to backup directories,
 subversion repositories, and mysql databases.
 </li>
-<li>Steve Rader has writen
-<b><a href="http://www.physics.wisc.edu/~rader/rdiff-backup-tools/">rdiff-backup-tools</a></b>,
-a set of bash scripts that vaguely emulate EMC's Legato NetWorker.</li>
 <li><b><a href="http://freshmeat.net/projects/backupninja">Backupninja</a></b> is a
 set of scripts and configuration files for managing backup software, and
 includes support for rdiff-backup.</li>
@@ -68,6 +59,8 @@ and many more features.</li>
 solution built on top of rdiff-backup and rdiffweb. Minarca Stack provide a
 tight integration to ease the deployment and configuration of rdiff-backup.</li>
 </ul>
+<p><b>NOTE:</b> both rdiffweb and Minarca are maintained by <a href="https://github.com/ikus060/">Patrik Dufresne</a>, active member of the rdiff-backup community.</p>
+
 <h2>Community provided scripts</h2>
 <p>
 There are many scripts to help rdiff-backup work in various environments available
@@ -127,13 +120,7 @@ script</li>
 off Mike Rubel's article</li>
 <li><b><a href="http://www.dirvish.com/">Dirvish</a></b> - perhaps the
 most feature-filled of these programs</li>
-<li><b><a href="http://www.effortlessis.com/backupbuddy/others.php">Backup Buddy</a></b> - a simple, easy-to-use option</li>
-<li><b><a href="http://www.pollux.franken.de/hjb/rsback/">rsback</a></b></li>
 <li><b><a href="http://www.perusion.com/misc/Snapback2/">Snapback2</a></b></li>
-<li><b><a href="http://colas.nahaboo.net/software/rsync-incr/">rsync-incr</a></b></li>
-<li><b><a href="http://rsyncbackup.erlang.no/">rsyncbackup</a></b></li>
-<li><b><a href="http://linux.schottelius.org/ccollect/">ccollect</a></b></li>
-<li><b><a href="http://www.ribs-backup.org/">RIBS backup</a></b></li>
 </ul>
 <p></p></li>
 <li><b><a href="http://backuppc.sourceforge.net/">BackupPC</a></b> - A

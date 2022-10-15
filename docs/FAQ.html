@@ -57,6 +57,7 @@ how much is required? What is the problem if rdiff-backup says
 <li><a href="#crc">What does "<code>IO Error: CRC check failed</code>" mean?</a></li>
 <li><a href="#badindex">What does "<code>AssertionError: Bad index order</code>" mean?</a></li>
 <li><a href="#utc">How can rdiff-backup use UTC as the timzeone?</a></li>
+<li><a href="#utc">What user interfaces are available for rdiff-backup ?</a></li>
 </ol>
 <h3><a name="ToC4">Questions and Answers</a></h3>
 <ol>
@@ -473,6 +474,17 @@ be used to temporarily change the timezone. On Unix, simply set <code>TZ=UTC</co
 command line used to run rdiff-backup. On Windows, the command <code>USE TZ=UTC</code> sets the <code>%TZ%</code>
 environment variable, and can be used either in a batch script, or at the DOS prompt.</p>
 
+</li>
+
+<li><strong><a name="gui">What user interfaces are available for rdiff-backup ?</a></strong>
+
+<p>Two open source projects exist providing a user interface for rdiff-backup.</p>
+<p><a href="https://rdiffweb.org">Rdiffweb</a> is a web interface for rdiff-backup.
+It can be used to browse and restore your data from the convenience of your web browser.</p> 
+<p><a href="https://minarca.org">Minarca</a> is a centralized backup solution.
+It provides an agent to automate the backup process and a server to browse and
+restore the data to be installed on your centralized backup server. The agent is
+cross-platform allowing you to seamlessly use a single solution.</p>
 </li>
 
 </ol>
